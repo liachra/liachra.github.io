@@ -104,4 +104,8 @@ pagination.pagerSize = 5
           identifier = "social"
           name = "Social Links"
           url = "/social"
+        [[languages.en.menu.main]]
+          identifier = "blog"
+          name = "Posts"
+          url = "/blog"
 
