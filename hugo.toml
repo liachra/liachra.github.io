@@ -1,5 +1,5 @@
 baseURL = '/'
-locale = 'en-au'
+defaultContentLanguage = "en"
 title = 'Liams Corner of the Internet'
 
 # Terminal Theme Config
@@ -12,7 +12,7 @@ pagination.pagerSize = 5
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  contentTypeName = "blog"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
@@ -21,7 +21,7 @@ pagination.pagerSize = 5
   showLanguageSelector = false
 
   # set theme to full screen width
-  fullWidthTheme = false
+  fullWidthTheme = true
 
   # center theme with default width
   centerTheme = false
@@ -58,10 +58,8 @@ pagination.pagerSize = 5
   # on your server.
   # This value can be customized according to Hugo documentation:
   # https://gohugo.io/functions/time/format/
-  # Default value (no changes needed):
-  # dateFormat = "2006-01-02"
-  # Example format, with date, time, and timezone abbreviation:
-  # dateFormat = "2006-01-02 3:04:06 PM MST"
+  # Australian date format: 02 January 2006
+  dateFormat = "02 January 2006"
 
 
 [params.twitter]
@@ -73,7 +71,9 @@ pagination.pagerSize = 5
 
 [languages]
   [languages.en]
-    languageName = "English"
+    weight = 1
+    label = "English (Australia)"
+    languageCode = "en-AU"
     title = "Terminal"
 
     [languages.en.params]
