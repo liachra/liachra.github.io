@@ -1,0 +1,22 @@
+<center><h3><a rel="me" href="https://aus.social/@liachra">@liachra@aus.social</a> on Mastodon!</h3></center>
+<link rel="stylesheet" href="/mastodon-embed-timeline/dist/mastodon-timeline.min.css">
+<script src="/mastodon-embed-timeline/dist/mastodon-timeline.umd.js"></script>
+<div id="mt-container" class="mt-container">
+  <div class="mt-body" role="feed">
+    <div class="mt-loading-spinner"></div>
+  </div>
+</div>
+<script>
+const myTimeline = new MastodonTimeline.Init({
+    instanceUrl: "https://aus.social",
+    timelineType: "profile",
+    userId: "115992278716015536",
+    profileName: "@liachra",
+    dateFormatLocale: "en-AU",
+    hideReplies: true,
+    hideReblog: false,
+    hideCounterBar: false,
+    hidePinnedPosts: false,
+
+});
+</script>

@@ -1,0 +1,10 @@
+{{- $instance := .Get "instance" | default "tilvids.com" -}}
+{{- $id := .Get "id" -}}
+{{- $timestamp := .Get "timestamp" | default "" -}}
+{{- $url := printf "https://%s/videos/embed/%s" $instance $id -}}
+{{- if $timestamp -}}
+  {{- $url = printf "%s?start=%s&warningTitle=0" $url $timestamp -}}
+{{- else -}}
+  {{- $url = printf "%s?warningTitle=0" $url -}}
+{{- end -}}
+<div style="position: relative; padding-top: 56.25%;"><iframe title="PeerTube video" width="100%" height="100%" src="{{ $url }}" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="border: 0px; position: absolute; inset: 0px;"></iframe></div>
