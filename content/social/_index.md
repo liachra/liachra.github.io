@@ -13,4 +13,4 @@ title = 'Social'
 ### Message me on...
 [![Signal](social/links-logos/signal-65x65.webp)](social/signal)
 [![XMPP/Jabber](social/links-logos/xmpp-65x65.webp)](social/jabber)
-[![SEmail](social/links-logos/proton-65x65.webp)](social/email)s
+[![SEmail](social/links-logos/proton-65x65.webp)](social/email)
