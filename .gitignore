@@ -1,0 +1,19 @@
+# Hugo build artifacts
+main/public/.hugo_build.lock
+.hugo_build.lock
+
+# Output directory
+main/public/
+main/ipfs/
+
+# Generated resources
+main/resources/
+resources/
+
+# Node modules
+main/node_modules/
+node_modules/
+
+# OS-specific files
+.DS_Store
+main/.DS_Store
