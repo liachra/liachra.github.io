@@ -1,5 +1,5 @@
 +++
-date = '2026-09-08T08:57:59Z'
+#date = '2026-09-08T09:06:27Z'
 draft = false
 title = 'All my Links'
 +++
@@ -8,7 +8,7 @@ title = 'All my Links'
 ### Message me on...
 [![Signal](/social/links-logos/signal-65x65.webp)](/social/signal)
 [![XMPP/Jabber](/social/links-logos/xmpp-65x65.webp)](/social/jabber)
-[![SEmail](/social/links-logos/proton-65x65.webp)](/social/email)
+[![SEmail](/social/links-logos/proton-65x65.webp)](/email/submit)
 ## Social:
 ### Follow me on...
 [![Mastodon](/social/links-logos/mastodon-65x65.webp)](/social/fediverse)
