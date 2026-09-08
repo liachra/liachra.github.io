@@ -1,0 +1,3 @@
+[submodule "layouts/mastodon-embed-timeline"]
+	path = layouts/mastodon-embed-timeline
+	url = https://gitlab.com/idotj/mastodon-embed-timeline
