@@ -4,7 +4,7 @@ draft = false
 title = 'Subscribe'
 +++
 There are various ways to sign up for notifications
-- RSS
+- [RSS](/subscribe/rss)
 - [Email newsletter](/email/newsletter)
 - Follow me on [social media](/social)
 - [NTFY Subscription]()
