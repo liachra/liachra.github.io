@@ -1,6 +1,6 @@
 +++
 #date = '2026-09-08T10:32:38Z'
-draft = true
+draft = false
 title = 'Subscribe'
 +++
 There are various ways to sign up for notifications
