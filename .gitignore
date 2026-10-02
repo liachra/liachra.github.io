@@ -1,8 +1,8 @@
-# Hugo build artifacts
-.hugo_build.lock
+# Eleventy build artifacts
 
 # Output directory
 public/
+site/
 
 # Generated resources
 resources/
