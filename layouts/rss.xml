@@ -1,0 +1,3 @@
+{{- if .IsHome }}
+  {{- $pages = where site.RegularPages "Section" "blog" }}
+{{- end }}
