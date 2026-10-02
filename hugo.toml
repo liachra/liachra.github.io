@@ -102,8 +102,8 @@ pagination.pagerSize = 5
           name = "About"
           url = "/about"
         [[languages.en.menu.main]]
-          identifier = "blog"
-          name = "Posts"
+          identifier = "all-posts"
+          name = "My Posts"
           url = "/posts"
         [[languages.en.menu.main]]
           identifier = "social-links"
