@@ -12,7 +12,7 @@ pagination.pagerSize = 5
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "blog"
+  contentTypeName = "posts"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 3
@@ -101,6 +101,10 @@ pagination.pagerSize = 5
           identifier = "about"
           name = "About"
           url = "/about"
+        [[languages.en.menu.main]]
+          identifier = "all-posts"
+          name = "My Posts"
+          url = "/posts"
         [[languages.en.menu.main]]
           identifier = "social-links"
           name = "Social Links"

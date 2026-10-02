@@ -11,3 +11,4 @@ Check out my contact info and social pages [here](/social).
 Send me an email [here](/email/submit).
 
 {{< mastodon-timeline-vendor-wide >}}
+{{< author-attribution-liachra >}}
