@@ -1,6 +1,6 @@
 # Liam's Corner of the Internet
 ### A human according to captcha
-Hello world! I’m Liam, and welcome to my little corner of the internet. Here, I share updates, dive into cool projects, and occasionally drop a track I’m listening to.
+Hello world! I’m Liam, and welcome to my corner of the internet. Here, I share updates, dive into cool projects, and occasionally drop a track I’m listening to.
 
 Check out my contact info and social pages [here](https://liam.oluachra.id.au/social).
 
