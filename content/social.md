@@ -1,7 +1,7 @@
 +++
 #date = '2026-09-08T09:06:27Z'
 draft = false
-title = 'All my Links'
+title = 'Social & Contact'
 +++
 # All my Links
 ## Contact:

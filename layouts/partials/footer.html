@@ -1,14 +1,12 @@
-<iframe src="https://tunein.com/embed/player/s25404/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
 <footer class="footer">
+  <iframe src="https://tunein.com/embed/player/s25404/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
   <div class="footer__inner">
     {{ if $.Site.Copyright }}
       <div class="copyright copyright--user">
         <span>{{ $.Site.Copyright | safeHTML }}</span>
     {{ else }}
       <div class="copyright">
-        <span>© {{ now.Year }}</span>
-        <span>This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0,</a></span>
-        <span>Unless stated otherwise</span>
+        <span><a href="https://github.com/liachra">Liam</a> © {{ now.Year }} licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></span>
     {{ end }}
       <span>:: Powered by <a href="https://gohugo.io">Hugo</a> <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">&</a> <a href="https://github.com/panr" target="_blank">panr</a></span>
       </div>
